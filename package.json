@@ -2,7 +2,7 @@
   "name": "technocraftsite",
   "version": "1.1.1",
   "description": "\"static site\"",
-  "main": "index.js",
+  "main": "app.js",
   "Static Site": true,
   "scripts": {
     "build": "echo \"No build specified\" && exit 1",
