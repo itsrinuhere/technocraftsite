@@ -1,27 +1,30 @@
 {
-      "name": "technocraftsite",
-      "version": "1.0.0",
-      "description": "",
-      "main": "index.html",
-      "Static Site": true,
-      "scripts": {
-            "build": "echo \"No build specified\" && exit 1",
-            "test": "echo \"No test specified\" && exit 1",
-            "server": "node server.js"
-      },
-      "repository": {
-            "type": "git",
-            "url": "git+https://github.com/itsrinuhere/technocraftsite.git"
-      },
-      "author": "srinivas Banoth",
-      "license": "ISC",
-      "bugs": {
-            "url": "https://github.com/itsrinuhere/technocraftsite/issues"
-      },
-      "homepage": "https://github.com/itsrinuhere/technocraftsite#readme",
-      "dependencies": {
-            "connect": "^3.7.0",
-            "serve-static": "^1.15.0",
-            "nodemon": "^2.0.20"
-      }
+  "name": "technocraftsite",
+  "version": "1.1.1",
+  "description": "\"static site\"",
+  "main": "index.js",
+  "Static Site": true,
+  "scripts": {
+    "build": "echo \"No build specified\" && exit 1",
+    "test": "echo \"No test specified\" && exit 1",
+    "server": "node app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsrinuhere/technocraftsite.git"
+  },
+  "author": "srinivas Banoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsrinuhere/technocraftsite/issues"
+  },
+  "homepage": "https://github.com/itsrinuhere/technocraftsite#readme",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.16.4",
+    "serve-static": "^1.15.0"
+  },
+  "keywords": [],
+  "devDependencies": {}
 }
