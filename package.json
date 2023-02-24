@@ -5,8 +5,6 @@
   "main": "app.js",
   "Static Site": true,
   "scripts": {
-    "build": "echo \"No build specified\" && exit 1",
-    "test": "echo \"No test specified\" && exit 1",
     "server": "node app.js",
     "start": "node app.js"
   },
