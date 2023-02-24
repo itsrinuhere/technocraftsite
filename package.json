@@ -2,16 +2,17 @@
       "name": "technocraftsite",
       "version": "1.0.0",
       "description": "",
+      "main": "index.html",
       "scripts": {
             "build": "echo \"No build specified\" && exit 1",
             "test": "echo \"No test specified\" && exit 1",
-            "start": "node server.js"
+            "server": "node server.js"
       },
       "repository": {
             "type": "git",
             "url": "git+https://github.com/itsrinuhere/technocraftsite.git"
       },
-      "author": "",
+      "author": "srinivas Banoth",
       "license": "ISC",
       "bugs": {
             "url": "https://github.com/itsrinuhere/technocraftsite/issues"
@@ -19,6 +20,7 @@
       "homepage": "https://github.com/itsrinuhere/technocraftsite#readme",
       "dependencies": {
             "connect": "^3.7.0",
-            "serve-static": "^1.15.0"
+            "serve-static": "^1.15.0",
+            "nodemon": "^2.0.20"
       }
 }
